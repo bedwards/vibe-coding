@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding - One Human, One AI, One Industry Disrupted</title>
+    <meta name="description" content="A radical, opinionated guide to AI-driven software development. By Brian Edwards.">
+    <meta property="og:title" content="Vibe Coding">
+    <meta property="og:description" content="One Human, One AI, One Industry Disrupted. A free book on AI-driven software development.">
+    <meta property="og:type" content="book">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        :root {
+            --bg: #fafafa;
+            --text: #1a1a1a;
+            --accent: #2563eb;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111827;
+                --text: #f9fafb;
+                --accent: #60a5fa;
+                --muted: #9ca3af;
+                --border: #374151;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+        }
+        .author {
+            font-size: 1rem;
+            color: var(--muted);
+        }
+        .downloads {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid var(--border);
+            color: var(--text);
+        }
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p { margin-bottom: 1rem; }
+        .highlight {
+            background: var(--accent);
+            color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+        .highlight h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .toc {
+            list-style: none;
+        }
+        .toc li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .toc a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        .toc a:hover { color: var(--accent); }
+        footer {
+            padding: 2rem 0;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.875rem;
+        }
+        footer a { color: var(--accent); }
+        .formats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .format-card {
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+        .format-card h4 {
+            margin-bottom: 0.5rem;
+        }
+        .format-card p {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+        blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Vibe Coding</h1>
+            <p class="subtitle">One Human, One AI, One Industry Disrupted</p>
+            <p class="author">By Brian Edwards &middot; November 2025</p>
+            <div class="downloads">
+                <a href="vibe-coding.pdf" class="btn">Download PDF (Free)</a>
+                <a href="vibe-coding.epub" class="btn btn-secondary">Download EPUB</a>
+                <a href="read/" class="btn btn-secondary">Read Online</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>About This Book</h2>
+            <p>This is not a safe book. It is not a gentle introduction to AI-assisted coding. It is a field report from the trenches—a documentation of what happens when one developer stops treating AI as a fancy autocomplete and starts treating it as a genuine collaborator capable of understanding, reasoning, and executing complex software engineering tasks.</p>
+            
+            <p>The results were disruptive. Not in the Silicon Valley marketing sense. In the actual sense: existing assumptions about team size, development velocity, and what one person can accomplish were disrupted.</p>
+
+            <blockquote>
+                "If the economics and capabilities have changed as I describe, the industry will adjust, whether anyone wants it to or not."
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>What You'll Learn</h2>
+            <ul class="toc">
+                <li>Why traditional software engineering practices need to be reconsidered</li>
+                <li>A specific, opinionated methodology for human-AI collaboration</li>
+                <li>How to set up your development environment for maximum AI effectiveness</li>
+                <li>The workflow that enabled one developer to build production healthcare software</li>
+                <li>Git strategies, CI/CD configuration, and operational practices</li>
+                <li>The economic implications of software becoming nearly free to produce</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Available Formats</h2>
+            <div class="formats">
+                <div class="format-card">
+                    <h4>PDF</h4>
+                    <p>Best for desktop reading and printing</p>
+                    <a href="vibe-coding.pdf" class="btn">Download</a>
+                </div>
+                <div class="format-card">
+                    <h4>EPUB</h4>
+                    <p>For Kindle, Kobo, and e-readers</p>
+                    <a href="vibe-coding.epub" class="btn">Download</a>
+                </div>
+                <div class="format-card">
+                    <h4>Web</h4>
+                    <p>Read in your browser</p>
+                    <a href="read/" class="btn">Read Online</a>
+                </div>
+                <div class="format-card">
+                    <h4>Audiobook</h4>
+                    <p>Listen on the go</p>
+                    <a href="audio/" class="btn">Listen</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="highlight">
+            <h3>This Book is Free</h3>
+            <p>Published under Creative Commons Attribution 4.0. Share it, remix it, build on it. The full source is available on GitHub.</p>
+            <p style="margin-top: 1rem;">If you find value here, consider supporting <a href="https://github.com/neighborhood-lab/care-commons" style="color: white; text-decoration: underline;">Care Commons</a>, the open-source healthcare software built using these methods.</p>
+        </div>
+
+        <section>
+            <h2>Table of Contents</h2>
+            <ul class="toc">
+                <li><strong>Part One: The Nature of the Change</strong></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 1: What Traditional Software Development Actually Looks Like</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 2: What Has Actually Changed</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 3: Why Claude, Why Now</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 4: The Implications Are Uncomfortable</li>
+                <li><strong>Part Two: The Methodology</strong></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 5: The Foundation: Development Environment</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 6: The Workflow in Practice</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 7: Automated Verification: The Guardrails</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 8: Git Workflow and Branch Strategy</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 9: When Claude Gets Stuck</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 10: The Human Role</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 11: Parallel Operations with Multiple AI Agents</li>
+                <li><strong>Part Three: The Economics and Ethics</strong></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 12: What Software Costs Now</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 13: Why Open Source, Why Now</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 14: The Disruption of Software Teams</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapter 15: The Path Forward</li>
+                <li><strong>Part Four: The Practice</strong></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Chapters 16-24: Detailed setup and configuration guides</li>
+                <li><strong>Appendices</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>About the Author</h2>
+            <p>Brian Edwards is a software engineer with experience at Atlassian (Bitbucket team) and Zenoss. He is the creator of Care Commons, an open-source home healthcare management platform built using the methodology described in this book.</p>
+            <p>Contact: <a href="mailto:brian.mabry.edwards@gmail.com">brian.mabry.edwards@gmail.com</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Brian Edwards. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="https://github.com/bedwards/vibe-coding">GitHub</a> &middot;
+                <a href="https://github.com/neighborhood-lab/care-commons">Care Commons</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
